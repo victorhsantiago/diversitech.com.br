@@ -94,3 +94,7 @@ body {
         flex-direction: column;
     }
 }
+
+.bg-azul-escuro {
+    background-color: #18285B;
+}
