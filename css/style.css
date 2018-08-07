@@ -20,13 +20,15 @@ body {
     font-size: 31px;
     font-weight: bold;
 }
+.titulo-palestrante{
+    color:#67AECA;
+}
 
 .txt-cta {
     font-size: 1.25em;
     font-weight: bold;
     margin: 4%;
 }
-
 .bg-roxo-claro {
     background-color: #675682;
 }
@@ -72,17 +74,16 @@ body {
 }
 
 .speaker {
-    padding: 0;
+    padding: 50px;
     margin: 0;
     list-style: none;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .img-speaker {
-    width: 75%;
+    width: 100%;
     border-radius: 2.5%;
     margin-bottom: 1.5em;
     object-fit: fill;
