@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.txt-mercado1{
+    width: 570px;
+    margin-right: 4%;    
+    font-size: 28px;
+}
+.txt-mercado2{
+    width: 570px;
+    margin-left: 4%;
+    font-size: 28px;
+}
+.call-container{
+    width: 720px;
+}
+.titulo-cta{
+    font-size: 31px;
+    font-weight: bold;
+}
+.txt-cta{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4%;
+}
+.con-mercado{
+    display: flex;
+    height: 740px;
+}
+.mercado{
+  background-color: #675682;
+  color: #FFFFFF;
+  height: 720px;
+}
+.call-to-action{
+    background-color:#67AECA;
+    color: #FFFFFF;
+    height: 450px;
+}
+.botaoCompra{
+    background-color: #E52A6F;
+    color: #FFFFFF;
+    padding: 14px;  
+    margin: 4%;
+    font-weight: bold;
+}
+.rodape{
+    background-color:#5F0F4E;
+    color:#FFFFFF;
+}
