@@ -1,0 +1,88 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.txt-mercado1{
+    width: 570px;
+    margin-right: 4%;
+    font-size: 28px;
+}
+.txt-mercado2{
+    width: 570px;
+    margin-left: 4%;
+    font-size: 28px;
+}
+.call-container{
+    width: 720px;
+}
+.titulo-cta{
+    font-size: 31px;
+    font-weight: bold;
+}
+.txt-cta{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4%;
+}
+.con-mercado{
+    display: flex;
+    height: 740px;
+}
+.mercado{
+  background-color: #675682;
+  color: #FFFFFF;
+  height: 720px;
+}
+.call-to-action{
+    background-color:#67AECA;
+    color: #FFFFFF;
+    height: 450px;
+}
+.botaoCompra{
+    background-color: #E52A6F;
+    color: #FFFFFF;
+    padding: 14px;
+    margin: 4%;
+    font-weight: bold;
+}
+.rodape{
+    background-color:#5F0F4E;
+    color:#FFFFFF;
+}
+
+#resumo {
+    background-color: #5f0f4e;
+    color: #fff;
+ }
+ 
+ .speaker {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .img-speaker {
+    width: 75%;
+    border-radius: 5%;
+    margin-bottom: 1.5em;
+    object-fit: fill;
+ }
