@@ -93,6 +93,10 @@ body {
         display: block;
         flex-direction: column;
     }
+
+    .speaker{
+        margin-bottom: 3em;
+    }
 }
 
 .bg-azul-escuro {
