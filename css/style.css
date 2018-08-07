@@ -1,6 +1,6 @@
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 body {
@@ -9,12 +9,6 @@ body {
 
 .fa {
     font-size: 30px;
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .call-container {
@@ -33,38 +27,48 @@ body {
     margin: 4%;
 }
 
-.con-mercado {
-    display: flex;
-}
-
-.mercado {
+.bg-roxo-claro {
     background-color: #675682;
-    color: #FFFFFF;
-    height: auto;
 }
 
-.call-to-action {
+.bg-azul {
     background-color: #67AECA;
-    color: #FFFFFF;
-    height: 450px;
 }
 
-.botaoCompra {
+.bg-rosa {
     background-color: #E52A6F;
-    color: #FFFFFF;
-    padding: 14px;
-    margin: 4%;
-    font-weight: bold;
 }
 
-.rodape {
-    background-color: #5F0F4E;
-    color: #FFFFFF;
+.btn-rosa {
+    background-color: #E52A6F;
+    border: 2px solid #E52A6F;
 }
 
-#resumo {
-    background-color: #5f0f4e;
+.btn-rosa.btn-outline {
+    background-color: #fff;
+    border: 2px solid #E52A6F;
+    color: #E52A6F !important;
+}
+
+.btn-rosa.btn-outline:hover {
+    background-color: #E52A6F;
+    border: 2px solid #fff;
     color: #fff;
+}
+
+.btn-rosa:hover {
+    color: #E52A6F !important;
+    background-color: #fff;
+    border: 2px solid #E52A6F;
+}
+
+.border-rosa {
+    border: 2px solid #E52A6F;
+    color: #E52A6F;
+}
+
+.bg-roxo {
+    background-color: #5F0F4E;
 }
 
 .speaker {
@@ -84,12 +88,8 @@ body {
     object-fit: fill;
 }
 
-.white-stripe{
-    margin-bottom: 1em;    
-}
-
 @media(max-width: 992px){
-    .speakers{
+    .speakers {
         display: block;
         flex-direction: column;
     }
