@@ -53,7 +53,7 @@ body {
 .btn-rosa.btn-outline:hover {
     background-color: #E52A6F;
     border: 2px solid #fff;
-    color: #fff;
+    color: #fff !important;
 }
 
 .btn-rosa:hover {
