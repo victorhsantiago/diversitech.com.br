@@ -83,7 +83,7 @@ body {
 
 .img-speaker {
     width: 75%;
-    border-radius: 5%;
+    border-radius: 2.5%;
     margin-bottom: 1.5em;
     object-fit: fill;
 }
