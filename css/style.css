@@ -111,3 +111,7 @@ body {
 .bg-azul-escuro {
     background-color: #18285B;
 }
+
+.text-muted.title {
+    font-size: 25px;
+}
