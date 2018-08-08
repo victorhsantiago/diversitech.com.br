@@ -110,8 +110,3 @@ body {
 .bg-azul-escuro {
     background-color: #18285B;
 }
-
-#mapa {
-    position: absolute;
-    top: -29px;
-}
